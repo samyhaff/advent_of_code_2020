@@ -9,8 +9,8 @@ result = 1
 
 for slope in slopes:
     i, j = 0, 0
-    step_j, step_i = slope
-    count = 0
+step_j, step_i = slope
+count = 0
     while i < nb_lignes:
         if grid[i][j] == "#":
             count += 1
